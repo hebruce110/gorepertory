@@ -2,7 +2,7 @@ package example
 
 import (
 	"fmt"
-	"gorepertory/json"
+	"github.com/heyuan110/gorepertory/json"
 	"testing"
 )
 
