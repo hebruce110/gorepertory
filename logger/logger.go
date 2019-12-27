@@ -6,12 +6,23 @@ import (
 	"log"
 	"os"
 	"path"
+	"path/filepath"
 	"runtime"
 	"time"
 )
 
+func logfile()string  {
+	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
+	if err != nil {
+		log.Fatal(err)
+	}
+	folder := dir + "/"
+	name := "golang_"+time.Now().Format("20060102")+".log"
+	return folder + name
+}
+
 func Info(msg ...interface{}) {
-	f, err := os.OpenFile("golang_"+time.Now().Format("20060102")+".log", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
+	f, err := os.OpenFile(logfile(), os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}

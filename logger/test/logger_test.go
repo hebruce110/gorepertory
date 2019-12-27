@@ -5,6 +5,7 @@ import (
 	"testing"
 )
 
+
 func TestLogger(t *testing.T)  {
 	logger.Info("demo")
 	logger.Info([]int{23,23,3})
