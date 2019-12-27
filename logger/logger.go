@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-func Info(msg interface{}) {
+func Info(msg ...interface{}) {
 	f, err := os.OpenFile("golang_"+time.Now().Format("20060102")+".log", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
 		log.Fatal(err)
