@@ -1,11 +1,9 @@
-package formatjson
+package strings
 
-import (
-	"encoding/json"
-)
+import "encoding/json"
 
 //Decode json string to interface
-func Decode(json_str string)  interface{}{
+func JsonDecode(json_str string)  interface{}{
 	if json_str == "" {
 		return  nil
 	}
@@ -18,7 +16,7 @@ func Decode(json_str string)  interface{}{
 }
 
 //Encode interface to json string
-func Encode(i interface{}) string  {
+func JsonEncode(i interface{}) string  {
 	if i == nil {
 		return ""
 	}
