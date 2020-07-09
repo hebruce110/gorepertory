@@ -8,6 +8,4 @@ _ "github.com/heyuan110/gorepertory/logger"
 _ "github.com/heyuan110/gorepertory/strings"
 // datetime package
 _ "github.com/heyuan110/gorepertory/datetime"
-// rabbitmq package
-_ "github.com/heyuan110/gorepertory/rabbitmq"
 )

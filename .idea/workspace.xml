@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f273a94-b3ff-4fbc-9a23-4178552a43f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings/json.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/formatjson.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/test/formatjson_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/strings_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/strings/strings_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
